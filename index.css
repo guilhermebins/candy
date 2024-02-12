@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  font-family: "Protest Revolution", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #8e1212c1;
+}
+
+header {
+  background-color: #9c0101;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+}
+
+header img {
+  margin-left: 45%;
+}
+
+header nav a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 0 16px 0 0;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 48px;
+}
+
+h1,
+h2,
+h3 {
+  color: #e1a500;
+  max-width: 75%;
+  margin-bottom: 32px;
+}
+
+.paragraph {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  line-height: 150%;
+  max-height: 75%;
+  margin-bottom: 32px;
+}
+
+.button {
+  background-color: #9c0101;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 12px 64px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+#aboutUs,
+#peanut,
+#bread,
+#cookie {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-right: 6%;
+  padding: 64px 80px 128px 80px;
+  position: relative;
+}
+
+#peanut h2,
+#peanut .paragraph,
+#cookie h2,
+#cookie .paragraph {
+  text-align: right;
+  max-width: 100%;
+  gap: 32px;
+  margin-left: 10%;
+}
+
+#butter {
+  display: block;
+  text-align: center;
+  margin-bottom: 128px;
+}
+
+#butter h2,
+#butter .paragraph {
+  margin: 32px auto;
+  max-width: 60%;
+}
+
+#faq {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  margin: 32px 64px;
+}
+
+.faq-tag h3 {
+  border: 2px solid #e1a500;
+  border-radius: 8px;
+  max-width: 85%;
+  margin-bottom: 0;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.faq-tag .paragraph {
+  border-right: 1px solid #e1a500;
+  border-bottom: 1px solid #e1a500;
+  border-left: 1px solid #e1a500;
+  border-radius: 0 0 8px 8px;
+  max-width: 85%;
+  margin-top: -6px;
+  padding: 0 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.faq-tag.active .paragraph {
+  padding: 24px;
+  height: fit-content;
+  opacity: 1;
+}
+
+footer {
+  background-color: #9c0101;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+}
+
+.logo-slogan {
+  color: #fff;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.fast-navigation,
+.find-us {
+  color: #fff;
+}
+
+.fast-navigation nav,
+.find-us div {
+  padding-top: 16px;
+}
+
+.fast-navigation nav a,
+.find-us p {
+  color: #fff;
+  display: block;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.find-us p a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 5px;
+}
+
+#copyright {
+  background-color: #9d9d9d;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding: 24px 32px;
+}
+
+#copyright a {
+  color: #000;
+  font-weight: normal;
+  margin-right: 5%;
+}
